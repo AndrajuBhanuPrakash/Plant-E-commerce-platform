@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet"href="styles.css">
+    
+  
+    <div class="nav">
+     <nav>
+     <a href="Home.html" class="anchor">Home</a>
+            <a href="About.html" class="anchor">About</a>
+            <a href="Products.html" class="anchor">Products</a>
+            <a href="steps.html" class="anchor">Steps</a>
+            <a href="FAQs.html"  class="anchor">FAQs</a>
+            <a href="Contacts.html"  class="anchor">Contacts</a>
+ </nav>
+ </div>
+</head>
+<body>
+  <!-- <div class="im"> -->
+  
+    <div style="display:flex">   
+   <div>
+    <h1 class="h3">Check box Our Products</h1>
+    <p class="p3">Checkout products  to the process where customers finalize their purchase on an e-commerce website, typically involving reviewing items in the cart, providing shipping and payment information, and confirming the order. This process is also known as the "checkout experience" or "checkout flow"</p>
+   </div> 
+
+  </div>
+   <div style="display:flex">
+    <div>
+    <img src="images/sapota.png"style="margin-left:20px;width:220px;height:230px">
+    <p style="margin-left:40px;">sapota<br>Rs 180</p>
+    <button style="margin-left:40px;background-color:orange;border:none"onclick="addtoCart(80)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+  </div>
+    <div>
+    <img src="images/guva.png"style="margin-left:30px;width:220px;height:230px">
+    <p style="margin-left:40px;">Guva plant<br>Rs 80</p>
+    <button style="margin-left:40px;background-color:orange;border:none"onclick="addtoCart(80)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+  </div>
+   <div>
+    <img src="images/mango.png"style="margin-left:30px;width:220px;height:230px">
+    <p >Mango plant<br>Rs 280</p>
+   <button style="background-color:orange;border:none"onclick="addtoCart(280)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+
+  </div>
+  <div>
+    <img src="images/custard apple.png"style="margin-left:30px;width:220px;height:230px">
+    <p >Custard apple plant<br>Rs 180</p>
+    <button  style="background-color:orange;border:none"onclick="addtoCart(180)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+
+  </div>
+   <div>
+    <img src="images/orange.png"style="margin-left:30px;width:220px;height:230px">
+    <p >Orange Plant <br>Rs 480</p>
+   <button style="background-color:orange;border:none" onclick="addtoCart(480)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+</div>
+  <div>
+    <img src="images/Strawberry.png"style="margin-left:30px;width:220px;height:230px">
+    <p >Strawberry <br>Rs 580</p>
+   <button style="background-color:orange;border:none" onclick="addtoCart(480)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+</div>
+  </div>
+  
+  <div style="display:flex">
+        <div>
+ <img src="images/lemon.png"style="margin-left:30px;width:220px;height:230px">
+    <p  style="margin-left:40px;">Lemon Plant <br>Rs 180</p>
+      <button  style="margin-left:40px;background-color:orange;border:none" onclick="addtoCart( 180)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+</div>
+    <div>
+ <img src="images/banana.png"style="margin-left:30px;width:220px;height:230px">
+    <p  style="margin-left:40px;">banana Plant <br>Rs 180</p>
+      <button  style="margin-left:40px;background-color:orange;border:none" onclick="addtoCart( 180)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+</div>
+    <div>
+ <img src="images/Dragon.png"style="margin-left:30px;width:220px;height:230px">
+    <p  style="margin-left:40px;">Dragon Plant <br>Rs 380</p>
+      <button  style="margin-left:40px;background-color:orange;border:none" onclick="addtoCart( 180)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+</div>
+  <div>
+    <img src="images/chery.png"style="margin-left:30px;width:220px;height:230px">
+    <p  style="margin-left:50px;">chery Plant <br>Rs 580</p>
+     <button style="margin-left:40px;background-color:orange;border:none" onclick="addtoCart( 580)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+
+ </div>  
+  <div>
+    <img src="images/Lychee.png"style="margin-left:30px;width:220px;height:230px">
+    <p  style="margin-left:40px;">Lychee Plant <br>Rs 680</p>
+    <button style="margin-left:40px;background-color:orange;border:none" onclick="addtoCart( 680)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+
+  </div> 
+  <div>
+    <img src="images/progranate.png"style="margin-left:30px;width:220px;height:230px">
+    <p  style="margin-left:40px">pomegranate plant  <br>Rs 380</p>
+        <button style="margin-left:40px;background-color:orange;border:none"  onclick="addtoCart( 380)">addcart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></button>
+<div style="background-color:rgb(81, 152, 84);width:120px;height:130px;margin-left:30px;color:white;padding:20px;">
+      <h1>cart</h1>
+   <p id="total">total:Rs 0.00</p></div>
+ </div> 
+  
+</div>
+<script>
+  let total=0;
+  function addtoCart(price){
+     total=total+price;
+     document.getElementById('total').innerText="Rs:"+total.toFixed(2);
+  
+
+  
+  }
+</script>
+</body>
+</html>

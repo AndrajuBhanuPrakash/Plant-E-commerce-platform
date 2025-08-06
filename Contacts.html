@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+               <link rel="stylesheet"href="styles.css">
+ <div class="im">
+  
+    <div class="nav">
+     <nav>
+            <a href="Home.html" class="anchor">Home</a>
+            <a href="About.html" class="anchor">About</a>
+            <a href="Products.html" class="anchor">Products</a>
+            <a href="steps.html" class="anchor">Steps</a>
+            <a href="FAQs.html"  class="anchor">FAQs</a>
+            <a href="Contacts.html"  class="anchor">Contacts</a>
+ </nav>
+ </div>
+<div class="im">
+</head>
+<div style="display:flex">  
+
+<div style="margin-left:40px;padding:50px">
+  <h1 style="color:orange">Contact Us Today</h1>
+  <p style="color:rgb(44, 67, 198)"><b>call Us</b></br>
+  <b>+91 9347785981</b></p>
+  <p style="color:rgb(60, 209, 117)">Write Gmail<br>
+  <b>bhanuprakashandraju27@gmail.com</b></p> 
+</div>
+<div style="margin-left:140px;padding:50px">
+<div>
+  <input type="text"style="padding:10px" id="gmail" placeholder="Gmail">
+<div style="color:red" id="errorgmail"></div>
+</div>
+<div>
+  <input type="text"style="padding:10px" id="subject" placeholder="subject">
+<div style="color:red" id="subjectgmail"></div>
+</div>
+<div>
+  <textarea id="input"type="text"style="margin-top:20px;width:310px" placeholder="message"></textarea></br>
+  <button onclick="submit()">submit</button>
+</div>
+</div>
+</div>
+<!-- <div style="display:flex">
+   <div style="margin-left:130px ;display:flex"> -->
+    <div>
+<h1 style="width:500px;margin-left:50px;color:red">Subscribe to our newsletter</h1>
+    <div></br>
+      <div style="display:flex">
+        <div>
+<input style="margin-left:50px;background-color:aquamarine;width:340px;height:30px;color:red" placeholder="Enter your email">
+</div>
+<div>
+  <h1 style="color:white;background-color:orange;margin-top:-1px;height:34px;font-size:20px">Subscribe</h1>
+</div>
+</div>
+<div style="display:flex">
+  <div>
+<div style="width:320px;margin-left:600px;margin-top:-100px;">
+  <h1 style="color:orange">Our Address</h1>
+  <p style="color:rgb(230, 104, 8);font-size:20px">india<br>
+    pincode-522264</p>
+</div>
+</div>
+<div  style="width:320px;margin-left:5px;margin-top:-110px">
+  <h1 style="color:orange">Contacts</h1>
+  <p style="color:rgb(218, 16, 16);font-size:20px"><b>+91 9347785981</b><br></p>
+  <div>    
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg></div>
+<div style="margin-left:50px;margin-top:-18px"> 
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+</svg></div>
+ </div>
+ <div>
+ <h1 style="color:orange;margin-top:-80px;font-size:25px">We Accept all creadit cards</h1>
+  <img src="images/paytm.png"style="height:60px;width:50px;border-radius:20px;">
+  <img src="images/gpay.png"style="height:60px;width:60px;border-radius:20px;">
+   <img src="images/phonepay.png"style="height:60px;width:60px;border-radius:20px;">
+</div>
+</div>20px
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<body>
+  <script>
+    function submit(){
+      let gmail=document.getElementById("gmail").value;
+     let subject=document.getElementById("subject").value;
+      document.getElementById("errorgmail").innerText="";
+       if(gmail==""){
+        document.getElementById("errorgmail").innerText="* Required"
+       }
+    document.getElementById("subjectgmail").innerText="";
+    if(subject==""){
+      document.getElementById("subjectgmail").innerText="required";
+    }
+    }
+  </script>
+  </body>
